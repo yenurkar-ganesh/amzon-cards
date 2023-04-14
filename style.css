@@ -1,0 +1,80 @@
+
+body{
+    margin: 100px;
+    padding: 50px;
+    background-image: url(https://images.ottplay.com/posters/Gutur_Gu_2023_web_series_poster_1_905.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    transition: all .2s;
+    border: 1px solid gray;
+    border-radius: 21px;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(231, 231, 208);
+    opacity: 0.95;
+    box-shadow: 0px 6px 12px 02px rgba(0, 0, 0, 0.4);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.heading{
+    width: 100%;
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: rgb(76, 37, 9);
+}
+.info{
+    width: 100%;
+    font-size: 1.6rem;
+    margin-top: .7rem;
+    margin-bottom: 3rem;
+    color: rgb(101, 47, 9);
+}
+.card-img{
+     display: block; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border-radius: 16px;
+    opacity: 1;
+}
+.btn{
+    margin-top: 2.5rem;
+    padding: 20px;
+    width: 100%;
+    border-radius: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: aliceblue;
+    background-color: rgb(76, 37, 9);
+}
+.btn:hover{
+    transform: scale(1.01);
+    box-shadow: 4px 6px 10px rgb(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    color: rgb(76, 37, 9);
+}
+.container:hover{
+    transform: rotate(4deg);
+    width: 340px;
+    border-radius: 22px;
+    box-shadow: 4px 6px 12px 12px #eee;
+    border:none;
+}
